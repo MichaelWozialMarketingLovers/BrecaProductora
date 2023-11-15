@@ -1,0 +1,2 @@
+[24-Apr-2023 15:25:36 UTC] PHP Warning:  require(/home/proye205/public_html/Breca/../vendor/autoload.php): failed to open stream: No such file or directory in /home/proye205/public_html/Breca/index.php on line 24
+[24-Apr-2023 15:25:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/proye205/public_html/Breca/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/proye205/public_html/Breca/index.php on line 24

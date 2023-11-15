@@ -1,0 +1,79 @@
+ARTISTA
+    * id
+    nombre
+    apellido
+    tipo_artista
+    foto
+    descripcion
+    facebook
+    instagram 
+    whatsapp
+    - galeria
+
+ARTISTA_GALERIA
+    * id 
+    - artista 
+    foto
+
+ESPECTACULO
+    * id
+    titulo
+    subtitulo
+    foto
+    foto_izq
+    foto_der
+    - espectaculo_show
+    - espectaculo_detalle
+    - espectaculo_descripcion
+
+ESPECTACULO_SHOW
+   * id
+    titulo
+    subtitulo
+    - espectaculo
+
+ESPECTACULO_DESCRIPCION
+    * id
+    titulo
+    subtitulo
+    descripcion
+    - espectaculo
+
+ESPECTACULO_DETALLE
+    * id
+    - espectaculo
+    titulo_espectaculo
+    titulo_espectaculo_detalle
+    descripcion_espectaculo_detalle
+
+ESPECTACULO_DETALLE_GALERIA
+    * id
+    - espectaculo_detalle 
+    foto
+
+SERVICIO
+    * id
+    titulo
+    descripcion
+    foto
+    - detalle
+
+SERVICIO_CARRUSEL
+    * id
+    - servicio
+    - servicio_detalle
+
+SERVICIO_DETALLE
+    * id
+    titulo1
+    descripcion1
+    foto1
+    titulo2
+    descripcion2
+    foto2
+    - servicio_carrusel
+
+
+
+
+

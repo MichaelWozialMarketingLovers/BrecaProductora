@@ -1,0 +1,1470 @@
+/* GENERAL */
+
+.titulo-morado {
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #0716CF;
+}
+
+.titulo-negrita {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitulo-negrita {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* HOME */
+
+.btn-circulo:hover {
+    background-color: #A3A3A3;
+}
+
+/* OVERLAY - TRANSITION */
+.seccion-overlay {
+    position: relative;
+    width: 100%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.seccion-overlay:hover .overlay {
+    width: 75%;
+}
+  
+.text {
+    white-space: wrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.titulo-overlay {
+    font-size: 1.5rem;
+    color: #8E38E8;
+}
+
+#nombre::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+#whatsapp::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+#correo::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+
+#mensaje::placeholder {
+    text-align: center;
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+
+/* ANIMACIONES */
+
+.efecto-fade--index img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade--index img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--index img {
+    transition: 1s ease;
+}
+
+.efecto-grow--index img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.efecto-border--index img {
+    transition: .5s ease;
+}
+
+.efecto-border--index img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
+.efecto-fade--artistas img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade--artistas img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--cont__artistas {
+    transition: 1s ease;
+}
+
+.efecto-grow--cont__artistas:hover {
+    -webkit-transform: scale(1.31);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-grow--artistas img {
+    transition: 1s ease;
+}
+
+.efecto-grow--artistas img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+}
+
+.efecto-border--artistas img {
+    transition: .5s ease;
+}
+
+.efecto-border--artistas img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
+.nav-link--espectaculos:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 10px;
+}
+
+.nav-text-link--espectaculos:hover {
+    color: #8E38E8;
+}
+
+.efecto-fade--espectaculos img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade--espectaculos img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--espectaculos img {
+    transition: 1s ease;
+}
+
+.efecto-grow--espectaculos img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.efecto-border--espectaculos img {
+    transition: .5s ease;
+}
+
+.efecto-border--espectaculos img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
+.efecto-fade--servicios img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade--servicios img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--cont__servicios {
+    transition: 1s ease;
+}
+
+.efecto-grow--cont__servicios:hover {
+    -webkit-transform: scale(1.31);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-grow--servicios img {
+    transition: 1s ease;
+}
+
+.efecto-grow--servicios img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-border--servicios img {
+    transition: .5s ease;
+}
+
+.efecto-border--servicios img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
+.efecto-fade--detalle_servicios img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade--detalle_servicios img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--cont__detalle_servicios {
+    transition: 1s ease;
+}
+
+.efecto-grow--cont__detalle_servicios:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 1s ease;
+}
+
+.efecto-grow--detalle_servicio img {
+    transition: 1s ease;
+}
+
+.efecto-grow--detalle_servicio img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-border--detalle_servicio img {
+    transition: .5s ease;
+}
+
+.efecto-border--detalle_servicio img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
+/* MEDIA QUERYS */
+ 
+/* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+*/
+
+
+@media (min-width: 1281px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
+    #espacios-md-sm-xs {
+        display: none;
+    }
+
+    #espacios-sm-xs {
+        display: none;
+    }
+
+    .imagen-artistas {
+        height: 600px;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 80%;
+        line-height: 1.2em;
+        height: 14.5em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 12;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        width: 100%;
+        line-height: 1.2em;
+        height: 3em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        width: 100%;
+        line-height: 1.2em;
+        height: 12em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
+	.icono-overlay {
+        
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 26.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 26;
+    }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
+    #espacios-md-sm-xs {
+        display: none;
+    }
+
+    #espacios-sm-xs {
+        display: none;
+    }
+
+    .imagen-artistas {
+        height: 360px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 8.4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        font-size: 20px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        font-size: 16px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 8.4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+    }
+
+	.icono-overlay {
+
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 20.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 20;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
+    #espacios-md-sm-xs {
+        display: block;
+    }
+
+    #espacios-sm-xs {
+        display: none;
+    }
+
+    .imagen-artistas {
+        height: 380px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        font-size: 16px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+        inline-size: 1.2em;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        font-size: 14px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+    }
+
+	.icono-overlay {
+
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 14.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 14;
+    }
+}
+
+/*   
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
+    #espacios-md-sm-xs {
+        display: none;
+    }
+
+    #espacios-sm-xs {
+        display: none;
+    }
+
+    .imagen-artistas {
+        height: 370px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+   
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        font-size: 16px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        font-size: 14px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+    }
+
+	.icono-overlay {
+
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 14.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 14;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #encabezado-sm-xs {
+        display: block;
+    }
+
+    #espacios-md-sm-xs {
+        display: none;
+    }
+
+    #espacios-sm-xs {
+        display: block;
+    }
+
+    .imagen-artistas {
+        height: 380px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.1em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 9;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        font-size: 14px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        font-size: 11px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 7em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+    }
+
+	.icono-overlay {
+
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 10.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #encabezado-sm-xs {
+        display: block;
+    }
+
+    #espacios-md-sm-xs {
+        display: none;
+    }
+
+    #espacios-sm-xs {
+        display: block;
+    }
+
+    .imagen-artistas {
+        height: 500px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.1em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 9;
+    }
+
+    .texto-detalle-artistas {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 4.8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+
+    .overlay-estilos {
+        
+    }
+
+    .titulo-overlay {
+        font-size: 14px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+
+	.linea-overlay {
+
+    }
+
+	.subtitulo-overlay {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+	.texto-overlay {
+        font-size: 11px;
+
+        width: 100%;
+        line-height: 1.2em;
+        height: 7em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+    }
+
+	.icono-overlay {
+
+    }
+
+    .texto-detalle-admin-sub {
+        /* font-size: 20px; */
+        width: 100%;
+        line-height: 1.2em;
+        height: 8.2em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+    }
+}
+
+@media (min-width: 1380px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 350px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+    
+    
+}
+
+@media (min-width: 1281px) and (max-width: 1380px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 200px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 160px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 10px;
+        border: none;
+        background: #084cdf;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 240px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 240px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 360px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 200px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+
+    input[type=file] {
+        width: 100px;
+        max-width: 100%;
+        color: #444;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #084cdf;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+        background: #0d45a5;
+    }
+}
